@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Arquiteto.css">
+        <script src="js/Arquiteto.js"></script>
+        <title>Quiz de Profissões</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Quiz de Profissões</h1>
+            </div>
+            <nav>
+                <button class="entrar" onclick="redirectSeis()">Entar</button>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="contas" onclick="redirectCinco()">Contas</button>
+            </nav>
+        </header>
+
+        <tr>
+            <img src="img/imagenshj/Arquiteto_de_Soluções.jpg" class="result-image" id="resultadoImagem" onclick="showModalArquiteto()"><h2> Arquiteto de Soluções. <p1>Clique na imagem a cima &#128070;.</p1></h2>
+        </tr>
+        <div id="myModalArquiteto" class="modalarquiteto">
+            <div class="modal-content-arquiteto">
+                <span class="close" onclick="hideModalArquiteto('Arquiteto')">&times;
+                    <div>
+                        <h3>PARABENS VOÇÊ É UM ARQUITETO DE SOLUÇÕES!</h3>
+                        <h4>O perfil Arquiteto de Soluções  coordena os processos de tecnologia, garantindo que os componentes do sistema funcionem harmoniosamente.</h4>
+                        <h4>Eles definem padrões e protocolos que orientam o desenvolvimento de software, a integração de sistemas e a segurança de dados.</h4>
+                        <h5>A MÉDIA SALARIAL</h5>
+                        <h4>A remuneração total mensal estimada para o cargo de Arquiteto De Solucoes é de R$ 17.000, com uma média salarial mensal de R$ 15.000.</h4>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Quiz de Profissões - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>
