@@ -131,7 +131,7 @@ h2{
     border-radius: 50px;
     margin-left: 200px;
     height: 30px;
-    width: 800px;
+    width: 300px;
     margin-top: 50px;
     font-size: 1.1em;
     padding: 8px;
@@ -142,7 +142,7 @@ h2{
     border-radius: 50px;
     margin-left: 200px;
     height: 30px;
-    width: 800px;
+    width: 300px;
     margin-top: 50px;
     font-size: 1.1em;
     padding: 8px;
@@ -153,7 +153,62 @@ h2{
     border-radius: 50px;
     margin-left: 200px;
     height: 30px;
-    width: 900px;
+    width: 300px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+.rectangle4{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 300px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+.rectangle5{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 300px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+.rectangle6{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 300px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+.rectangle7{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 300px;
+    margin-top: 50px;
+    font-size: 1.1em;
+    padding: 8px;
+    background-color:#B3D8CE;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.245);
+}
+.rectangle8{
+    border-radius: 50px;
+    margin-left: 200px;
+    height: 30px;
+    width: 300px;
     margin-top: 50px;
     font-size: 1.1em;
     padding: 8px;
@@ -179,13 +234,13 @@ button.option{
   button.option.active{
     background-color: #000000;
 }
-.BotaoProximo{
+.BotaoFinalizar{
     display: flex;
     align-items: center;
     height: 40px; /* Centraliza verticalmente */
     border-radius: 5px;
 }
-.BotaoProximo button {
+.BotaoFinalizar button {
     padding: 15px 30px;
     background-color:#B3D8CE;
     color: rgb(0, 0, 0);
@@ -199,17 +254,17 @@ button.option{
     font-weight: bold;
     cursor: pointer;
 } 
-.BotaoProximo button:hover {
+.BotaoFinalizar button:hover {
     background-color: #00b386;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     transform: scale(1.05); /* Leve aumento ao passar o mouse */
 }
-.BotaoProximo button:active {
+.BotaoFinalizar button:active {
     background-color: #007a64;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transform: scale(0.98); /* Leve redução ao clicar */
 }
-.BotaoProximo button:focus {
+.BotaoFinalizar button:focus {
     outline: none;
     box-shadow: 0 0 0 4px rgba(0, 255, 145, 0.5);
 }

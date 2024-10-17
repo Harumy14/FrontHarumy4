@@ -29,7 +29,7 @@ function exibirResultado(){
     });
 
     // Mapeamento de respostas para sugestões de profissões
-let profissaoMap = {
+let profissaMap = {
     "Fortes habilidades de liderança e comunicação.": "Gestor de Projetos",
     "Experiência significativa em gerenciamento de projetos.": "Gerente de Projetos",
     "Conhecimentos avançados em ferramentas específicas da área.": "Especialista Técnico",
@@ -49,13 +49,14 @@ let profissaoMap = {
     "Cauteloso": "Analista de Segurança da Informação"
 };
 
-    let sugestaoProfissao = '';
-    for (let answer of answers) {
-        if (profissaMap[answer]) {
-            sugestaoProfissao = profissaMap[answer];
-            break;
-        }
+let sugestaoProfissao = '';
+for (let answer of answers) {
+    if (profissaMap[answer]) {
+        sugestaoProfissao = profissaMap[answer];
+        break;
     }
+}
+
     // Adicionando logs para verificar o valor da profissão sugerida
     console.log("Respostas: ", answers);
     console.log("Profissão sugerida: ", sugestaoProfissao);
@@ -66,8 +67,8 @@ let profissaoMap = {
         window.location.href = "http://127.0.0.1:5501/Gerente.html";
     } else if (sugestaoProfissao === "Especialista Técnico") {
         window.location.href = "http://127.0.0.1:5501/Especialista.html";
-    } else if (sugestaoProfissao === "Desiger") {
-        window.location.href = "http://127.0.0.1:5501/Desiger.html";
+    } else if (sugestaoProfissao === "Designer") {
+        window.location.href = "http://127.0.0.1:5501/Designer.html";
     }else if (sugestaoProfissao === "Programador") {
         window.location.href = "http://127.0.0.1:5501/Programador.html";
     }else if (sugestaoProfissao === "Analista") {
